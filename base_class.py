@@ -15,7 +15,7 @@ class BaseCluster():
             self.xml_init(data)
 
     def json_init(self, json_obj):
-        print json_obj
+        print (json_obj)
         for rootkey in json_obj:
             for key in json_obj[rootkey]:
                 setattr(self, key, json_obj[rootkey][key])
