@@ -1,2 +1,2 @@
 lxml==3.4.2
-pycountry>=1.20
+
